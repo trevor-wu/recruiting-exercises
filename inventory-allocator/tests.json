@@ -1,0 +1,35 @@
+[{
+  "orders": {"apple": 10},
+  "warehouses" : [{"name": "owd", "inventory":{"apple": 5,"orange": 10}},{"name": "dm", "inventory":{"banana":5,"orange":10}}]
+},
+{
+  "orders": {"apple": 10, "orange":12},
+  "warehouses" : [{"name": "owd", "inventory":{"apple": 5,"orange": 10}},{"name": "dm", "inventory":{"apple":5,"orange":10}}]
+},
+{
+  "orders": {"apple": 10, "potato":12, "onion":5, "orange":13, "broccoli":4, "yogurt":13},
+  "warehouses" : [{"name": "owd", "inventory":{"apple": 9,"orange":2, "broccoli":1, "yogurt":15}},
+                  {"name": "dm", "inventory":{"apple":5,"orange":11, "broccoli":1, "onion":7}},
+                  {"name": "ny", "inventory":{"apple":5,"orange":2, "broccoli":1, "potato":10}},
+                  {"name": "la", "inventory":{"apple":10,"orange":9, "broccoli":1, "potato":12, "yogurt":2}}]
+},
+{
+  "orders": {"apple": 35, "potato":22, "onion":5, "orange":9, "broccoli":6, "yogurt":13, "milk":5, "eggs":2},
+  "warehouses" : [{"name": "ny", "inventory":{"apple": 9,"orange":2, "broccoli":1, "yogurt":15}},
+                  {"name": "la", "inventory":{"apple":5,"orange":11, "broccoli":1, "onion":10}},
+                  {"name": "chicago", "inventory":{"apple":5,"orange":2, "broccoli":1, "potato":10}},
+                  {"name": "houston", "inventory":{"apple":10,"orange":9, "broccoli":1, "potato":12, "yogurt":2}},
+                  {"name": "phoenix", "inventory":{"apple": 9,"orange":2, "broccoli":1, "yogurt":15, "milk":5}},
+                  {"name": "philly", "inventory":{"apple":5,"orange":11, "broccoli":1, "onion":7}},
+                  {"name": "dallas", "inventory":{"apple":5,"orange":2, "broccoli":1, "potato":10}},
+                  {"name": "sd", "inventory":{"apple":10,"orange":9, "broccoli":1}},
+                  {"name": "sj", "inventory":{"apple": 9,"orange":2, "broccoli":1, "yogurt":15, "milk":6}},
+                  {"name": "memphis", "inventory":{"apple":5,"orange":11, "broccoli":1, "onion":7, "eggs":1}},
+                  {"name": "sf", "inventory":{"apple":5,"orange":2, "broccoli":1, "potato":10, "yogurt":1, "eggs":1}},
+                  {"name": "detroit", "inventory":{"apple":10,"orange":9, "broccoli":1, "potato":12, "yogurt":2}}]
+},
+{
+  "orders": {"apple": 2},
+  "warehouses" : []
+}
+]
